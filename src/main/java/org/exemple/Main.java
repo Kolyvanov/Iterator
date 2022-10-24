@@ -3,9 +3,9 @@ package org.exemple;
 public class Main {
     public static void main(String[] args) {
         for (int r : new Randoms(90, 100)) {
-            System.out.println("Случайное число: " + r);
+            System.out.println("РЎР»СѓС‡Р°Р№РЅРѕРµ С‡РёСЃР»Рѕ: " + r);
             if (r == 100) {
-                System.out.println("Выпало число 100, давайте на этом закончим");
+                System.out.println("Р’С‹РїР°Р»Рѕ С‡РёСЃР»Рѕ 100, РґР°РІР°Р№С‚Рµ РЅР° СЌС‚РѕРј Р·Р°РєРѕРЅС‡РёРј");
                 break;
             }
         }
